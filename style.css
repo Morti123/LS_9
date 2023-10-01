@@ -1,0 +1,91 @@
+/* }
+.conteiner{
+    width: 80vw;
+    height: 90vh;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly ;
+    align-items: center;
+    flex-wrap: wrap;    
+}
+.conteiner div{
+    width: 800px;
+    height: 200px;
+    background-color: magenta;
+    border: 5px solid blue;
+}
+p{
+    height: 100px;
+    border: 5px solid red;
+} */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+body{
+    background: url(img/background.jpeg) no-repeat left top/ cover;
+}
+.conteiner{
+    border: 1px solid red;
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between ;
+    align-items: center;
+}
+.zagolovok{
+    height: 8vh;
+    font-size: 60px;
+    background-color:rgba(61, 118, 204, 0.671) ;
+    text-align: center;
+    font-weight: bolder;
+}
+.conteiner li{
+    padding: 0.75vh;
+    color: white;
+    background-color: rgb(61, 118, 204, 0.8);
+    width: 10vw;
+    height: 4vh;
+    text-align: center;
+    margin: 0.5vw;
+    border-radius: 10px 10px 10px 10px;
+    list-style-type: none;
+}
+.conteiner ol{
+    width: 12vw;
+    padding:1vh;
+    height: 33vh;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.conteiner div{
+    width: 25%;
+    height: 80%;
+    border: 3px solid rgb(34, 34, 255);
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.conteiner h2{
+    font-size: 40px;
+    padding-top: 3vh;
+    text-align: center;
+}
+img{
+    margin-top: 1vh;
+   width: 250px;
+   height: 150px;
+}
+h2{
+    padding-top: 2vh;
+    height: 8vh;
+    font-size: 30px;
+    background-color:rgba(61, 118, 204, 0.671) ;
+    text-align: center;
+    font-weight: bolder;
+}
